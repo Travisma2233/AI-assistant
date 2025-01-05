@@ -30,7 +30,7 @@ AI 聊天助手是一个桌面应用程序，支持多个 AI 模型，包括 Dee
 
 1. **📥 Clone the repository | 克隆仓库**
    ```bash
-   git clone https://github.com/Travisma2233/ai-chat-assistant.git
+   git clone https://github.com/Travisma2233/AI-assistant.git
    cd ai-chat-assistant
    ```
 
