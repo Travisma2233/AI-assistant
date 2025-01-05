@@ -1,110 +1,85 @@
+# 🤖 AI Chat Assistant | AI 聊天助手
 
+AI Chat Assistant is a desktop application that supports multiple AI models, including DeepSeek, OpenAI, and Claude. It features a modern UI with theme and language toggles, and supports Markdown and LaTeX.
 
-```markdown:README.md
-# 🚀 Python Project | Python 项目
+AI 聊天助手是一个桌面应用程序，支持多个 AI 模型，包括 DeepSeek、OpenAI 和 Claude。它具有现代化的用户界面，支持主题和语言切换，并支持 Markdown 和 LaTeX。
 
-[English](#english) | [中文](#中文)
+## ✨ Features | 功能特点
 
-# English
+- **🎯 Multi-Model Support | 多模型支持**: 
+  - 🧠 DeepSeek
+  - 🤖 OpenAI (ChatGPT)
+  - 🌟 Claude
 
-## 📝 Description
-A Python-based project that helps you manage and organize your tasks efficiently.
+- **🎨 User-Friendly Interface | 用户友好界面**: 
+  - 🌓 Dark/Light theme toggle | 深色/浅色主题切换
+  - 🌍 English/Chinese language toggle | 中英文切换
 
-## ⚙️ Requirements
-- Python 3.7+
+- **📝 Rich Text Support | 富文本支持**: 
+  - ✍️ Markdown rendering | Markdown 渲染
+  - 📐 LaTeX rendering | LaTeX 渲染
 
-## 🛠️ Installation
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/project-name.git
+- **📚 Chat History | 聊天记录**: 
+  - 💾 Save and view past conversations | 保存并查看历史对话
+
+- **🔑 API Key Management | API 密钥管理**: 
+  - 🔒 Securely manage your API keys | 安全管理 API 密钥
+
+## 🚀 Installation | 安装
+
+1. **📥 Clone the repository | 克隆仓库**
+   ```bash
+   git clone https://github.com/Travisma2233/ai-chat-assistant.git
+   cd ai-chat-assistant
+   ```
+
+2. **📦 Install dependencies | 安装依赖**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **🔧 Configure API keys | 配置 API 密钥**
+   - Create `config.json` in the root directory | 在根目录创建 `config.json`
+   ```json
+   {
+     "deepseek_api_key": "your_deepseek_key",
+     "openai_api_key": "your_openai_key",
+     "claude_api_key": "your_claude_key"
+   }
+   ```
+
+4. **▶️ Run the application | 运行应用程序**
+   ```bash
+   python main.py
+   ```
+
+## ⚙️ Configuration | 配置
+
+The `config.json` file is used to store API keys and other settings. Example:
+`config.json` 文件用于存储 API 密钥和其他设置。示例：
+
+```json
+{
+  "deepseek_api_key": "your_deepseek_key",
+  "openai_api_key": "your_openai_key",
+  "claude_api_key": "your_claude_key"
+}
 ```
 
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+## 📝 License | 许可证
 
-## 🎮 Usage
-Run the main program:
-```bash
-python main.py
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📁 Project Structure
-```
-.
-├── README.md
-└── main.py
-```
+本项目采用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
 
-## 🤝 Contributing
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🤝 Contributing | 贡献
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
----
+欢迎贡献！请随时提交 Pull Request。
 
-# 中文
+## 📞 Contact | 联系
 
-## 📝 项目描述
-这是一个基于 Python 的项目，帮助你高效管理和组织任务。
+If you have any questions, please open an issue or contact me.
 
-## ⚙️ 环境要求
-- Python 3.7+
-
-## 🛠️ 安装步骤
-1. 克隆仓库
-```bash
-git clone https://github.com/yourusername/project-name.git
-```
-
-2. 安装依赖
-```bash
-pip install -r requirements.txt
-```
-
-## 🎮 使用方法
-运行主程序：
-```bash
-python main.py
-```
-
-## 📁 项目结构
-```
-.
-├── README.md
-└── main.py
-```
-
-## 🤝 贡献指南
-1. Fork 本项目
-2. 创建新的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
-
-## 📄 许可证
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-
-## 📧 联系方式
-如有任何问题，请提交 issue 或通过以下方式联系我们：
-- Email: your.email@example.com
-- WeChat: YourWeChatID
-
-## ⭐ 支持项目
-如果这个项目对你有帮助，请给它一个星标！
-```
-
-这个版本的 README：
-- 添加了表情符号使内容更生动
-- 保持了清晰的双语结构
-- 添加了可直接复制的代码块
-- 增加了联系方式和支持项目的部分
-- 使用了更友好的格式和布局
-
-需要我对内容进行任何调整吗？
+如果您有任何问题，请开启一个 issue 或联系我。
