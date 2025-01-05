@@ -3,7 +3,6 @@
 
 
 AI Chat Assistant is a desktop application that supports multiple AI models, including DeepSeek, OpenAI, and Claude. It features a modern UI with theme and language toggles, and supports Markdown and LaTeX.
-
 AI 聊天助手是一个桌面应用程序，支持多个 AI 模型，包括 DeepSeek、OpenAI 和 Claude。它具有现代化的用户界面，支持主题和语言切换，并支持 Markdown 和 LaTeX。
 
 ## ✨ Features | 功能特点
