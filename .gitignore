@@ -1,0 +1,26 @@
+# 配置文件
+config.json
+
+# 聊天历史
+chat_history/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 构建目录
+build/
+dist/
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp 

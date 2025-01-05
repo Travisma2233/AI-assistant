@@ -1,0 +1,7 @@
+customtkinter
+markdown
+matplotlib
+pillow
+requests
+openai
+anthropic 
