@@ -28,6 +28,8 @@ AI 聊天助手是一个桌面应用程序，支持多个 AI 模型，包括 Dee
 
 ## 🚀 Installation | 安装
 
+### 方式一：从源代码运行 | Run from source code
+
 1. **📥 Clone the repository | 克隆仓库**
    ```bash
    git clone https://github.com/Travisma2233/AI-assistant.git
@@ -53,6 +55,25 @@ AI 聊天助手是一个桌面应用程序，支持多个 AI 模型，包括 Dee
    ```bash
    python main.py
    ```
+
+### 方式二：使用可执行文件 | Use executable file
+
+1. **📦 打包成exe | Package as exe**
+   ```bash
+   pyinstaller --noconfirm --onefile --windowed --add-data "config.json;." main.py
+   ```
+
+2. **📂 找到可执行文件 | Find the executable**
+   - 打包完成后，在 `dist` 文件夹中找到 `main.exe`
+   - After packaging, find `main.exe` in the `dist` folder
+
+3. **🔧 配置 API 密钥 | Configure API keys**
+   - 确保 `config.json` 文件与 exe 文件在同一目录下
+   - Make sure `config.json` is in the same directory as the exe file
+
+4. **▶️ 运行程序 | Run the program**
+   - 双击 `main.exe` 即可运行程序
+   - Double click `main.exe` to run the program
 
 ## ⚙️ Configuration | 配置
 
